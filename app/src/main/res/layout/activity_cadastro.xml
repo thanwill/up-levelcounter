@@ -35,18 +35,34 @@
         app:layout_constraintTop_toBottomOf="@+id/titlePageCadastro"
         app:layout_constraintVertical_bias="0.0" />
 
+    <EditText
+        android:id="@+id/editTextNome"
+        android:layout_width="371dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="9dp"
+        android:layout_marginTop="71dp"
+        android:layout_marginBottom="32dp"
+        android:ems="10"
+        android:hint="Informe o nome do seu jogador"
+        android:inputType="text"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+        app:layout_constraintEnd_toEndOf="@+id/linearLayout"
+        app:layout_constraintStart_toStartOf="@+id/linearLayout"
+        app:layout_constraintTop_toBottomOf="@+id/textForcaAtual"
+        app:layout_constraintVertical_bias="1.0" />
+
     <LinearLayout
         android:id="@+id/linearLayout"
         android:layout_width="380dp"
-        android:layout_height="100dp"
+        android:layout_height="wrap_content"
         android:orientation="horizontal"
         android:padding="10dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.516"
+        app:layout_constraintHorizontal_bias="0.483"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/titlePageCadastro"
-        app:layout_constraintVertical_bias="0.396">
+        app:layout_constraintVertical_bias="0.428">
 
         <LinearLayout
             android:layout_width="match_parent"

@@ -24,7 +24,7 @@ class CadastroActivity : AppCompatActivity() {
         setObservers()
 
         binding.buttonCadastrar.setOnClickListener {
-            val nome = "Teste"
+            val nome = binding.editTextNome.text.toString()
             val nivel = binding.editTextNivel.text.toString()
             val armadura = binding.editTextArmaduras.text.toString()
             val modificador = binding.editTextModificador.text.toString()

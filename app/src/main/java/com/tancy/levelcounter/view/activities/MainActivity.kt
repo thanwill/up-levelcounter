@@ -51,11 +51,12 @@ class MainActivity : AppCompatActivity() {
 
         adapter.onItemLongClick = {
             viewModel.deletar(it)
+            viewModel.getAllJogadores()
         }
 
         adapter.onItemClick = {
             val jogador = it
-            val intent = Intent(this, CadastroActivity::class.java)
+            val intent = Intent(this, PerfilActivity::class.java)
             intent.putExtra("id", jogador.id)
             startActivity(intent)
         }
