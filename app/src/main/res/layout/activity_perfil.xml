@@ -7,12 +7,12 @@
     tools:context=".view.activities.PerfilActivity">
 
     <TextView
-        android:id="@+id/textView13"
+        android:id="@+id/textViewForcaJogador"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="12dp"
         android:layout_marginEnd="264dp"
-        android:text="Total de pontos"
+        android:text="Total de força"
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -44,7 +44,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/textViewNome"
-        app:layout_constraintTop_toBottomOf="@+id/textView13" />
+        app:layout_constraintTop_toBottomOf="@+id/textViewForcaJogador" />
 
     <LinearLayout
         android:id="@+id/linearLayout2"
@@ -70,7 +70,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="15dp"
-                android:text="Força"
+                android:text="Nível"
                 android:textSize="18dp" />
 
             <TextView
@@ -97,7 +97,7 @@
             android:orientation="vertical">
 
             <TextView
-                android:id="@+id/textViewForca"
+                android:id="@+id/textViewNivel"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="15dp"

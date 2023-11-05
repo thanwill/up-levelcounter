@@ -7,62 +7,50 @@
     tools:context=".view.activities.CadastroActivity">
 
     <TextView
-        android:id="@+id/titlePageCadastro"
+        android:id="@+id/textViewTitlePage"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Cadastro de personagem"
-        android:textSize="18sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.152" />
-
-    <TextView
-        android:id="@+id/textForcaAtual"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="36dp"
-        android:layout_marginBottom="1dp"
-        android:text="30 pontos"
+        android:layout_marginStart="67dp"
+        android:layout_marginEnd="88dp"
+        android:gravity="center"
+        android:text="Cadastre um novo jogador"
         android:textSize="28sp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.402"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/titlePageCadastro"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.138" />
 
     <EditText
         android:id="@+id/editTextNome"
-        android:layout_width="371dp"
-        android:layout_height="46dp"
-        android:layout_marginStart="9dp"
-        android:layout_marginTop="71dp"
+        android:layout_width="327dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="180dp"
         android:layout_marginBottom="32dp"
         android:ems="10"
+        android:gravity="center"
         android:hint="Informe o nome do seu jogador"
         android:inputType="text"
         app:layout_constraintBottom_toTopOf="@+id/linearLayout"
         app:layout_constraintEnd_toEndOf="@+id/linearLayout"
+        app:layout_constraintHorizontal_bias="0.509"
         app:layout_constraintStart_toStartOf="@+id/linearLayout"
-        app:layout_constraintTop_toBottomOf="@+id/textForcaAtual"
+        app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="1.0" />
 
     <LinearLayout
         android:id="@+id/linearLayout"
         android:layout_width="380dp"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="304dp"
         android:orientation="horizontal"
         android:padding="10dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.483"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/titlePageCadastro"
-        app:layout_constraintVertical_bias="0.428">
+        app:layout_constraintStart_toStartOf="parent">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -139,11 +127,12 @@
 
     <Button
         android:id="@+id/buttonCadastrar"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="160dp"
+        android:layout_height="61dp"
         android:layout_marginTop="122dp"
         android:layout_marginBottom="92dp"
-        android:text="Cadastrar"
+        android:text="SALVAR"
+        android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"

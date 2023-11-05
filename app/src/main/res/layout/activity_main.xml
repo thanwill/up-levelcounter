@@ -7,7 +7,7 @@
     tools:context=".view.activities.MainActivity">
 
     <TextView
-        android:id="@+id/textViewNome"
+        android:id="@+id/textViewTitlePage"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="103dp"
@@ -30,7 +30,7 @@
         app:layout_constraintBottom_toTopOf="@+id/recyclerViewJogadores"
         app:layout_constraintEnd_toEndOf="@+id/recyclerViewJogadores"
         app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="@+id/textViewNome" />
+        app:layout_constraintStart_toStartOf="@+id/textViewTitlePage" />
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recyclerViewJogadores"

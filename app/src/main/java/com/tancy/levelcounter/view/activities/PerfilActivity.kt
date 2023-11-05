@@ -35,9 +35,10 @@ class PerfilActivity : AppCompatActivity() {
 
     fun setObservers() {
         viewModel.getJogador().observe(this) {
-            binding.textViewNome.text = it.nome
+            binding.textViewNome.text = "${it.nome}"
+            binding.textViewForcaJogador.text = "Força atual de ${it.forca} pontos"
             // nivel, armadura e modificador
-            binding.textViewForca.text = it.forca.toString()
+            binding.textViewNivel.text = it.nivel.toString()
             binding.textViewArmadura.text = it.armadura.toString()
             binding.textViewModificador.text = it.modificador.toString()
         }

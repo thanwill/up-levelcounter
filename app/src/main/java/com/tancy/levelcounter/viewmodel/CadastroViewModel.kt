@@ -36,7 +36,7 @@ class CadastroViewModel(application: Application) : AndroidViewModel(application
             nivel.toInt(),
             armadura.toInt(),
             modificador.toInt(),
-            0,
+            forca = nivel.toInt() + modificador.toInt() + armadura.toInt()
         )
 
         if(!repository.salvar(jogador)){

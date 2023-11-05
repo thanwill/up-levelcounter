@@ -16,8 +16,6 @@ class CadastroActivity : AppCompatActivity() {
         binding = ActivityCadastroBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        binding.textForcaAtual.text = "0"
-
         // inicializar o cadastroViewModel
         cadastro = CadastroViewModel(application)
 
