@@ -13,6 +13,9 @@
         android:theme="@style/Theme.LevelCounterByWillian"
         tools:targetApi="31">
         <activity
+            android:name=".view.activities.CadastroActivity"
+            android:exported="false" />
+        <activity
             android:name=".view.activities.MainActivity"
             android:exported="true">
             <intent-filter>

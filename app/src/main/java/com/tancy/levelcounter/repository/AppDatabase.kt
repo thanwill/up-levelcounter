@@ -4,8 +4,9 @@ import android.content.Context
 import androidx.room.Database
 import androidx.room.Room
 import androidx.room.RoomDatabase
+import com.tancy.levelcounter.model.Jogador
 
-@Database(entities = [], version = 1)
+@Database(entities = [Jogador::class ], version = 1)
 abstract class AppDatabase: RoomDatabase() {
 
     abstract fun jogadorDao(): JogadorDao

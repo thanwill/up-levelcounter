@@ -13,8 +13,10 @@ class Jogador (
     val nome: String,
     @ColumnInfo(name = "nivel")
     val nivel : Int = 1,
-    @ColumnInfo(name = "equipamentos")
-    val equipamento : Int = 0,
+    @ColumnInfo(name = "armadura")
+    val armadura : Int = 0,
+    @ColumnInfo(name = "modificador")
+    val modificador : Int = 0,
     @ColumnInfo(name = "forca")
     val forca : Int = 0,
 )
