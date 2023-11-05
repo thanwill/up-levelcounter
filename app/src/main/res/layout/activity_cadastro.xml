@@ -7,44 +7,54 @@
     tools:context=".view.activities.CadastroActivity">
 
     <TextView
+        android:id="@+id/textView"
+        android:layout_width="343dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="26dp"
+        android:layout_marginBottom="47dp"
+        android:text="@string/paragraph_register"
+        app:layout_constraintBottom_toTopOf="@+id/editTextNome"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/textViewTitlePage"
+        app:layout_constraintTop_toBottomOf="@+id/textViewTitlePage" />
+
+    <TextView
         android:id="@+id/textViewTitlePage"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="67dp"
-        android:layout_marginEnd="88dp"
         android:gravity="center"
-        android:text="Cadastre um novo jogador"
+        android:text="Cadastro de jogador"
         android:textSize="28sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.402"
+        app:layout_constraintHorizontal_bias="0.27"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.138" />
+        app:layout_constraintVertical_bias="0.119" />
 
     <EditText
         android:id="@+id/editTextNome"
-        android:layout_width="327dp"
-        android:layout_height="70dp"
+        android:layout_width="349dp"
+        android:layout_height="58dp"
         android:layout_marginTop="180dp"
+        android:layout_marginEnd="25dp"
         android:layout_marginBottom="32dp"
         android:ems="10"
-        android:gravity="center"
         android:hint="Informe o nome do seu jogador"
         android:inputType="text"
         app:layout_constraintBottom_toTopOf="@+id/linearLayout"
-        app:layout_constraintEnd_toEndOf="@+id/linearLayout"
-        app:layout_constraintHorizontal_bias="0.509"
-        app:layout_constraintStart_toStartOf="@+id/linearLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/textView"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintVertical_bias="0.821" />
 
     <LinearLayout
         android:id="@+id/linearLayout"
-        android:layout_width="380dp"
+        android:layout_width="370dp"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="304dp"
+        android:layout_marginBottom="272dp"
         android:orientation="horizontal"
         android:padding="10dp"
         app:layout_constraintBottom_toBottomOf="parent"

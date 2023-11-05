@@ -24,18 +24,20 @@
     <TextView
         android:id="@+id/textView2"
         android:layout_width="337dp"
-        android:layout_height="44dp"
-        android:layout_marginBottom="36dp"
-        android:text="@string/paragraphs_lorem"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="30dp"
+        android:text="@string/paragraph_list"
         app:layout_constraintBottom_toTopOf="@+id/recyclerViewJogadores"
         app:layout_constraintEnd_toEndOf="@+id/recyclerViewJogadores"
         app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="@+id/textViewTitlePage" />
+        app:layout_constraintStart_toStartOf="@+id/textViewTitlePage"
+        app:layout_constraintTop_toBottomOf="@+id/textViewTitlePage" />
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recyclerViewJogadores"
         android:layout_width="340dp"
-        android:layout_height="424dp"
+        android:layout_height="400dp"
         android:layout_marginBottom="30dp"
         app:layout_constraintBottom_toTopOf="@+id/buttonAdicionar"
         app:layout_constraintEnd_toEndOf="parent"

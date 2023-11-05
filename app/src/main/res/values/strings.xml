@@ -1,5 +1,8 @@
 <resources>
     <string name="app_name">Level Counter by Willian</string>
     <string name="paragraphs_lorem">id interdum velit laoreet id donec ultrices tincidunt arcu non</string>
+    <string name="paragraph_profile">Consulte as informações do jogador. Se necessário, atualize os dados de nível, armadura ou modificadores.</string>
+    <string name="paragraph_list">Disponível para até 6 novos jogadores. Para consultar detalhes, clique sobre o nome de um jogador ou segure para deleta-lo.</string>
+    <string name="paragraph_register">Adicione um novo jogador. A somatório de força será alterada com base no nível, quantidade de armadura e modificadores disponíveis.</string>
 
 </resources>
